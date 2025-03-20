@@ -21,7 +21,7 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags: andrepoletti/fake-shop:v2
+          tags: andrepoletti/fake-shop:v${{ github.run_number }}
       - run: echo "Envio de imagem para o Docker Hub"
   CD:
     needs: [CI]
