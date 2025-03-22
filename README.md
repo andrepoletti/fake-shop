@@ -74,3 +74,4 @@ FLASK_APP => Configurar aquivo index.py
                     images: |
                       andrepoletti/fake-shop:v${{ github.run_number }}
 
+![Screenshot da aplicação](imagens/ambiente_antes_esteira.jpg)
