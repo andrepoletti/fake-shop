@@ -65,7 +65,7 @@ FLASK_APP => Configurar aquivo index.py
                   uses: azure/k8s-set-context@v4
                   with:
                     method: kubeconfig
-                    kubeconfig: ${{ secrets.KUBECONFIG_DIGITALOCEAN }}
+                    kubeconfig: ${{ secrets.KUBECONFIG_DIGITALOCEAN_2 }}
                 - name: Fazendo Deploy no Cluster Kubernetes
                   uses: Azure/k8s-deploy@v5
                   with:
@@ -76,10 +76,22 @@ FLASK_APP => Configurar aquivo index.py
 
 ## Funcionamento Esteira CI/CD e Aplicação em Execução
 ### Antes da execução da esteira
-![Screenshot da aplicação](imagens/ambiente_antes_esteira_cicd.jpg)
+![Screenshot 1](imagens/ambiente_antes_esteira_cicd.jpg)
 
+## Inicio execução
+![Screenshot 2](imagens/Inicio_exec_cicd.jpg)
 
+## Final execução
+![Screenshot 3](imagens/Fim_exec_cicd.jpg)
 
+## Detalhes CI
+![Screenshot 4](imagens/Detalhes_exec_ci.jpg)
 
+## Detalhes CD
+![Screenshot 5](imagens/Detalhes_exec_cd.jpg)
 
+## Resultado comando kubectl get all no ambiente DO
+![Screenshot 6](imagens/resultado_final_kubectl_get_all.jpg)
 
+## Aplicação funcionando
+![Screenshot 7](imagens/Aplicacao_funcionando.jpg)
