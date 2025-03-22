@@ -27,7 +27,7 @@ FLASK_APP => Configurar aquivo index.py
 ### Aplicar Deployment
 - Após baixar o repo para local onde tenha comunicação via kubectl com o ambiente kubernetes, executar o comando abaixo:
 
-    kubectl apply -f k8s/deployment.yaml
+        kubectl apply -f k8s/deployment.yaml
 
 ## Esteira CI/CD
 ### CI
