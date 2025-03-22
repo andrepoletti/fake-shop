@@ -74,4 +74,12 @@ FLASK_APP => Configurar aquivo index.py
                     images: |
                       andrepoletti/fake-shop:v${{ github.run_number }}
 
-![Screenshot da aplicação](imagens/ambiente_antes_esteira.jpg)
+## Funcionamento Esteira CI/CD e Aplicação em Execução
+### Antes da execução da esteira
+![Screenshot da aplicação](imagens/ambiente_antes_esteira_cicd.jpg)
+
+
+
+
+
+
